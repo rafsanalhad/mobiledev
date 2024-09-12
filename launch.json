@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch Program",
+        "type": "node", // Assuming it's a Node.js project
+        "request": "launch",
+        "program": "${workspaceFolder}/path/to/your/file.js", // Set this to your entry point
+        "outFiles": ["${workspaceFolder}/**/*.js"],
+        "runtimeArgs": ["--nolazy"],
+        "sourceMaps": true,
+        "env": {
+          "NODE_ENV": "development"
+        },
+        "console": "integratedTerminal"
+      }
+    ]
+  }
+  
